@@ -7,6 +7,9 @@ class Thingy {
     private void secretMethod() {}
 }
 
+/**
+ * Demonstrates working with Class objects that contain runtime type information.
+ */
 public class ClassObject {
 
     public static void main(String[] args) {

@@ -12,7 +12,7 @@ public class ThreeTuple<A, B, C> extends TwoTuple<A,B>
     public static void main(String[] args)
     {
         Object obj = new Object();
-        ThreeTuple<Integer, Float, Object> t = new ThreeTuple<Integer, Float, Object>(new Integer(1), new Float(1.2f), obj);
+        ThreeTuple<Integer, Float, Object> t = new ThreeTuple<Integer, Float, Object>(Integer.valueOf(1), Float.valueOf(1.2f), obj);
 
         Integer a = t.first;
         Float b = t.second;

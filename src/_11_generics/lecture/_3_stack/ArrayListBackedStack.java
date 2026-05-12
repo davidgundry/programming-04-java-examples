@@ -20,6 +20,7 @@ public class ArrayListBackedStack<T> implements Stack<T>{
         class Cat {}
         Cat myCat = new Cat();
         Stack<Cat> cats = new ArrayListBackedStack<Cat>();
+        @SuppressWarnings("unused")
         Stack<Cat> moarCats = new LinkedListBackedStack<Cat>();
 
         cats.push(myCat);
