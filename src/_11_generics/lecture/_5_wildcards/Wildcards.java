@@ -40,7 +40,7 @@ public class Wildcards {
 
     static void consumeNumbersOrSubclasses(List<? extends Number> list) {
         list.get(0);
-        // list.add(new Integer(1)); // The method add(capture#2-of ? extends Number) in the type List<capture#2-of ? extends Number> is not applicable for the arguments (Integer)
+        list.add(new Integer(1)); // The method add(capture#2-of ? extends Number) in the type List<capture#2-of ? extends Number> is not applicable for the arguments (Integer)
     }
 
     static void consumeObjects(List<?> list)
