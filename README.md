@@ -4,11 +4,10 @@ A repository of example code for the Programming 04 module. Each subfolder corre
 
 ## Running the Examples
 
-The root of the classpath for each example is the root folder of that example, not the root folder of the repository. For example, to compile and run the `1-introduction-to-java/lecture/1-boilerplate/Boilerplate.java` example, execute `javac` and `java` from that directory:
+The `src` directory should be in the source path. This should be already configured in VS Code. In VS code, open the command palette  (`Ctrl + Shift + P`), then type:
 
-```bash
-cd 1-introduction-to-java/lecture/1-boilerplate/
-javac Boilerplate.java
-java Boilerplate
-```
+    > Java: Configure Java Runtime
 
+Add the `src/` folder to the list of "Source Paths".
+
+In VS Code, press F5 to run the current file.
