@@ -1,3 +1,5 @@
+package _10_strings.regex;
+
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
@@ -11,6 +13,7 @@ public class RegularExpressions {
         System.out.println(result);
 
 
+        // Requires Java >= 15
         String text = """
                 Here we have text that has custom {variable} templates?
 
